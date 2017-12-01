@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sousuke_mod",
+  "name": "sousuke's Mod",
+  "description": "私のレシピスプリクト用Mod",
+  "version": "rv0 alpha-1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sousuke"],
+  "credits": "Gregorius Techneticies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
