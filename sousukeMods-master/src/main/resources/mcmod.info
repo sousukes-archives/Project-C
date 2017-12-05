@@ -1,0 +1,58 @@
+[
+{
+  "modid": "sousuke_s_mod_core",
+  "name": "sousuke's Mod core",
+  "description": "私のレシピスプリクト用Mod",
+  "version": "rv0 alpha-1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sousuke"],
+  "credits": "Gregorius Techneticies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "sousuke_s_mod_blocks",
+  "name": "sousuke's Mod Blocks",
+  "description": "私のレシピスプリクト用Mod ブロック",
+  "version": "rc0 ",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sousuke"],
+  "credits": "Gregorius Techneticies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "sousuke_s_mod_items",
+  "name": "sousuke's Mod Items",
+  "description": "私のレシピスプリクト用Mod アイテム",
+  "version": "rc0 alpha",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sousuke"],
+  "credits": "Gregorius Techneticies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "sousuke_s_mod_recipes",
+  "name": "sousuke's Mod recipes",
+  "description": "私のレシピスプリクト用Mod レシピ",
+  "version": "rc0 alpha",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sousuke"],
+  "credits": "Gregorius Techneticies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
