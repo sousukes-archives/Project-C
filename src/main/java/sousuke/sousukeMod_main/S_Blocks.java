@@ -18,19 +18,38 @@ public class S_Blocks {
 	
 	public Block blockRubyore;
 	
+	public Block blockPinkdiamondore;
+	
+	public Block blockPinkdiamondblock;
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		
+	//ore
+	
+	
+	blockRubyore = new S_RubyBlockOre(Material.rock)
+			.setBlockName("biock_ruby_ore")
+			.setBlockTextureName("sousuke:ruby_ore");
+	GameRegistry.registerBlock(blockRubyore, "Roby ore");
+	
+
+	blockPinkdiamondore = new S_PinkDdiamondOre(Material.rock)
+			.setBlockName("Pink_diamond_ore")
+			.setBlockTextureName("sousuke:Pink_diamond_ore");
+	GameRegistry.registerBlock(blockPinkdiamondore, "Pink diamond ore");
+	
+	//etcBlock
 	
 	blockRuby = new S_RubyBlock(Material.rock)
 			.setBlockName("block_of_ruby")
 			.setBlockTextureName("sousuke:ruby_of_block");
 	GameRegistry.registerBlock(blockRuby, "Ruby of Block");
 	
-	blockRubyore =new S_RubyBlockOre(Material.rock)
-			.setBlockName("biock_ruby_ore")
-			.setBlockTextureName("sousuke:ruby_ore");
-	GameRegistry.registerBlock(blockRubyore, "Roby ore");
-
-}
-
+	blockPinkdiamondblock = new S_Pink_diamond_block(Material.rock)
+			.setBlockName("Pink_diamond_block")
+			.setBlockTextureName("sousuke:Pink_diamond_block");
+	GameRegistry.registerBlock(blockPinkdiamondblock, "Pinkdiamondblock");
+	
+	}
 }

@@ -18,6 +18,14 @@ public class Sousuke_Items {
 		public static Item ruby_dust;
 
 		public static Item Iridium_alloy;
+		
+		public static Item crime;
+		
+		public static Item tawasi;
+		
+		public static Item Pink_diamond;
+		
+		public static Item negime;
 
 
 		//アイテム追加
@@ -42,6 +50,31 @@ public class Sousuke_Items {
 					.setCreativeTab(CreativeTabs.tabMaterials)
 					.setTextureName("sousuke:Iridium_alloy");
 			GameRegistry.registerItem(Iridium_alloy, "Iridium alloy");
+			
+		    crime = new Item()
+		    		 .setUnlocalizedName("crime")
+		    		 .setCreativeTab(CreativeTabs.tabMaterials)
+		    		 .setTextureName("sousuke:crime");
+		     GameRegistry.registerItem(crime, "crime");
+		     
+		     tawasi = new Item()
+		    		 .setUnlocalizedName("tawasi")
+		    		 .setCreativeTab(CreativeTabs.tabMaterials)
+		    		 .setTextureName("sousuke:tawasi");
+		     GameRegistry.registerItem(tawasi, "tawasi");
+		     
+		     Pink_diamond = new Item()
+		    		 .setUnlocalizedName("Pink_diamond")
+		    		 .setCreativeTab(CreativeTabs.tabMaterials)
+		    		 .setTextureName("sousuke:Pink_diamond");
+		     GameRegistry.registerItem(Pink_diamond, "Pink diamond");
+		     
+		     negime = new Item()
+						.setUnlocalizedName("negime")
+						.setCreativeTab(CreativeTabs.tabMaterials)
+						.setTextureName("sousuke:negime");
+				GameRegistry.registerItem(negime, "negime");
+			
 
 		}
 
