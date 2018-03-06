@@ -1,10 +1,20 @@
 package sousuke.sousukeMod_main;
 
+import java.util.Random;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.util.MathHelper;
+import net.minecraft.world.IBlockAccess;
 
 public class S_PinkDdiamondOre extends Block {	
+	
+    public Random
+	
+	Random = new Random();
+
 	
 	public S_PinkDdiamondOre(Material material) {
 	
@@ -21,10 +31,39 @@ super(material);
 		
 		//明るさの設定
 		this.setLightLevel(0.0F);
+	}
+		
+		//ドロップ
+
+			
+		
+			    @Override
+				public Item getItemDropped(int meta, Random random, int fortune) {
+				return Sousuke_Items.Pink_diamond;
+				}
+
+				@Override
+				public int quantityDroppedWithBonus(int fortune, Random random) {
+				if (fortune > 0 && Item.getItemFromBlock(this) != this.getItemDropped(0, random, fortune)) {
+				int i = random.nextInt(fortune + 2) - 1;
+				if (i < 0) {
+				i = 0;
+				}
+				return this.quantityDropped(random) * (i + 1);
+				} else {
+				return this.quantityDropped(random);
+				}
+				}
+				@Override
+		        public int getExpDrop(IBlockAccess iBlockAccess, int meta, int fortune) {
+				return MathHelper.getRandomIntegerInRange(Random, 3, 7);
+				}
+				
+				
 		
 		//生成高度設定
 		
 		
 	}
 
-}
+

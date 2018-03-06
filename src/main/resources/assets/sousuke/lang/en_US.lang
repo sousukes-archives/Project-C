@@ -1,6 +1,7 @@
 //items
 item.ruby_dust.name=Ruby Dust
 item.Iridium_alloy.name=Iridium Alloy
+item.Iridium_Ingot.name=Iridium Ingot
 //blocks
 tile.block_of_ruby.name=Block of Ruby
 tile.biock_ruby_ore.name=Ruby Ore

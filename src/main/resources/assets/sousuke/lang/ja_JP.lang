@@ -1,6 +1,7 @@
 //アイテム
 item.ruby_dust.name=ルビーの粉
 item.Iridium_alloy.name=イリジウム合金
+item.Iridium_Ingot.name=イリジウムインゴット
 //ブロック
 tile.block_of_ruby.name=ルビーブロック
 tile.biock_ruby_ore.name=ルビー鉱石
